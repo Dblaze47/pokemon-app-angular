@@ -4,6 +4,10 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { LoginComponent, LogoutComponent, RegisterComponent} from './auth';
+import { SignedInLinksComponent, SignedOutLinksComponent } from './navbar';
+import { CardListComponent, CardListItemComponent } from './dashboard';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -15,4 +19,4 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
